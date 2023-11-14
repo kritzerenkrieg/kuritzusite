@@ -1,0 +1,70 @@
+.gjs-grid-row {
+	position:sticky;
+	top:0px;
+	background-color:rgba(255,255,255,1);
+	backdrop-filter:blur(13px);
+	box-shadow:0px 2px 7px 0px rgba(0,0,0,0.14);
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-direction:row;
+	min-height:auto;
+	padding:10px 0;
+	align-content:space-between;
+}
+
+.gjs-grid-column {
+	flex:0 1 auto;
+	display:block;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.navlogo {
+	color:black;
+	max-width:5em;
+	max-height:100%;
+	padding-top:0px;
+	padding-right:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	margin-top:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+
+.navbutton {
+	padding:10px;
+	font-family:'Courier New';
+	padding-left:20px;
+	padding-right:20px;
+	vertical-align:top;
+	max-width:100%;
+	display:inline-block;
+	text-decoration:none;
+	color:inherit;
+	transition:color 0.3s ease 0s;
+}
+
+.navlogo {
+	color:black;
+	max-width:5em;
+	max-height:100%;
+	margin-top:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+    
+.visit {
+	padding-right:15px;
+	margin-top:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-left:10px;
+	background-color:rgba(255,255,255,1);
+	color:rgba(0,0,0,1);
+	font-family:Courier New;
+}

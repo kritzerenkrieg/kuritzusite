@@ -1,13 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { Component } from 'react';
+import Navbar from "./component/navbar.js";
 
-function App() {
+class App extends Component {
+  render() {
   return (
     <div className="App">
+      <Navbar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://i.ibb.co/jw60y4b/Group-11-2.png" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit src/App.js and save to reload.
         </p>
         <a
           className="App-link"
@@ -20,6 +23,7 @@ function App() {
       </header>
     </div>
   );
+}
 }
 
 export default App;
