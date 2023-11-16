@@ -1,26 +1,18 @@
 import React from "react"
 import Navbar from "../component/navbar.js";
+import Hero from "../component/hero.js";
 import './UI.css';
 
 const Home = () => (
   <div>
     <Navbar />
-      <div class="hero-row">
-        <div class="hero-column">
-          <div class="hero-image">
-          </div>
-          <h1 class="heading">New Project "Red Signal: Zero" Started</h1>
-          <div id="itndw" class="text-main-content">
-            We have started a new project. Check it out in the products section!
-          </div>
-        </div>
-      </div>
+    <Hero />
 
-      <div id="ioyxg" class="gjs-grid-row">
-        <div id="i8w4i" class="gjs-grid-column">
-          <h2 id="iiacm" class="gjs-heading">
-            <span id="icxfor" class="gjs-text-blue">Recent Products</span>
-          </h2>
+      <div class="section">
+        <div class="column">
+          <h1 id class="h1">
+            Recent Products
+          </h1>
             <div id="ia21sa" class="text-main-content">
             All of our game is accessible in itch.io, but you can also play on-site (if available)
             <br/> We are planning to publish our game to the steam platform soon! 
