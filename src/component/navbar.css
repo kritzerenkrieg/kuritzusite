@@ -1,4 +1,4 @@
-.gjs-grid-row {
+.nav-row {
 	position:sticky;
 	top:0px;
 	background-color:rgba(255,255,255,1);
@@ -9,11 +9,10 @@
 	align-items:center;
 	flex-direction:row;
 	min-height:auto;
-	padding:10px 0;
 	align-content:space-between;
 }
 
-.gjs-grid-column {
+.nav-column {
 	flex:0 1 auto;
 	display:block;
 	padding-left:10px;
@@ -22,16 +21,14 @@
 
 .navlogo {
 	color:black;
-	max-width:5em;
-	max-height:100%;
-	padding-top:0px;
-	padding-right:0px;
-	padding-bottom:0px;
-	padding-left:0px;
+	max-width:3em;
+	max-height:3em;
+	min-width:1em;
+	min-height:1em;
 	margin-top:10px;
 	margin-right:10px;
 	margin-bottom:10px;
-	margin-left:10px;
+	margin-left:30px;
 }
 
 
@@ -46,16 +43,6 @@
 	text-decoration:none;
 	color:inherit;
 	transition:color 0.3s ease 0s;
-}
-
-.navlogo {
-	color:black;
-	max-width:5em;
-	max-height:100%;
-	margin-top:10px;
-	margin-right:10px;
-	margin-bottom:10px;
-	margin-left:10px;
 }
     
 .visit {
