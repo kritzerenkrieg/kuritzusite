@@ -1,0 +1,15 @@
+.catalog-img{
+    align-items:center;
+    background-position:0px 0px;
+	background-size:auto auto;
+	background-repeat:round;
+	background-attachment:scroll;
+	background-origin:border-box;
+	background-clip:border-box;
+	display:inline;
+	flex:0 1 auto;
+	align-self:center;
+	width:10rem;
+	height:10rem;
+	box-shadow:0 0 5px 0 black;
+}

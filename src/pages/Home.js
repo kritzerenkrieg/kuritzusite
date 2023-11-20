@@ -13,13 +13,12 @@ const Home = () => (
           <h1 id class="h1">
             Recent Products
           </h1>
-            <div id="ia21sa" class="text-main-content">
+            <div class="text-main-content">
             All of our game is accessible in itch.io, but you can also play on-site (if available)
             <br/> We are planning to publish our game to the steam platform soon! 
             </div>
-            <div id="ixzh1" class="gjs-grid-row">
-
-              <div id="ilpi3" class="gjs-grid-column feature-item">
+            <div class="section">
+              <div class="column">
                 <div id="iuckhi" class="gjs-grid-row">
                 </div>
                 <h3 id="in9ef" class="gjs-heading">Red Signal: Zero</h3>
