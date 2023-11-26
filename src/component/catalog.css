@@ -7,9 +7,28 @@
 	background-origin:border-box;
 	background-clip:border-box;
 	display:inline;
-	flex:0 1 auto;
 	align-self:center;
 	width:10rem;
 	height:10rem;
+    min-height:auto;
 	box-shadow:0 0 5px 0 black;
+}
+
+.catalog-box{
+    padding-top:15px;
+	padding-right:15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	display:flex;
+	flex-direction:column;
+	max-width:50vh;
+	text-align:center;
+	box-shadow:0 0 5px 0 black;
+}
+
+.catalog-title{
+    line-height:30px;
+	font-size:1.5rem;
+    font-weight: 700;
+	color: black;
 }
